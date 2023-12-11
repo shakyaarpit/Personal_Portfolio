@@ -1,0 +1,202 @@
+/* homeSection */
+.homeSection {
+  padding: 50px 0px;
+  color: white;
+}
+.homeSection .homeText h1 {
+  margin-bottom: 10px;
+}
+span {
+  color: rgb(0, 208, 255);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.homeSection .homeText p {
+  font-size: 0.85rem;
+  margin-top: 5px;
+  line-height: 23px;
+}
+
+.homeSection .homeText .btn {
+  background-color: transparent;
+  margin-top: 10px;
+}
+
+/* aboutSection */
+.mainAboutSection h1 {
+  text-align: center;
+  padding: 30px 0px;
+  color: white;
+}
+.aboutImg {
+  margin-top: 20px;
+}
+.aboutSection {
+  color: white;
+  padding-bottom: 40px;
+}
+.aboutSection .aboutName p {
+  line-height: 25px;
+  margin: 0px 12px;
+}
+
+/* exprienceSection */
+.exprienceSection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 0px;
+}
+.exprienceSection .language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  width: 50%;
+}
+
+.exprienceSection .language img {
+  margin: 40px;
+  height: 100px;
+  width: 100px;
+  border: 5px solid blue;
+  border-radius: 50%;
+}
+.exp {
+  padding: 30px 0px;
+}
+.expCard {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+}
+.expDetail {
+  color: white;
+}
+.expDetail p {
+  margin: 5px 0px;
+}
+.expCard .expImg img {
+  height: 100px;
+  width: 100px;
+  border: 5px solid blue;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: blue;
+}
+/* responsive of exprienceSection */
+@media only screen and (max-width: 1015px) {
+  .exprienceSection {
+    flex-direction: column;
+  }
+  .exprienceSection .language {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .exprienceSection .language {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .exprienceSection .language {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* projectSection */
+
+.projectSection {
+  padding: 40px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.projectCard {
+  margin: 10px;
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  /* background-color: blue; */
+  padding: 13px;
+  border-radius: 10px;
+  color: white;
+  /* background-color: bisque; */
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+.projectCard:hover {
+  scale: 1.02;
+}
+.projectCard h2 {
+  margin: 5px;
+}
+.projectCard p {
+  margin: 3px;
+  line-height: 23px;
+}
+.projectNav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ProNav {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 20px;
+  margin: 15px 0px;
+}
+.ProNav:hover {
+  scale: 1.03;
+}
+.projectCard img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* responsive of projectSection */
+@media only screen and (max-width: 700px) {
+  .projectSection {
+    padding: 40px 40px;
+  }
+  .projectCard {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .projectSection {
+    padding: 10px;
+  }
+  .projectCard {
+    width: 75%;
+  }
+}
+
+/* contactSection */
+.contactSection{
+  color: white;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contactImg{
+  margin: 20px;
+}
+.contactDetails{
+  margin: 20px;
+}
+.contactNav{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 23px;
+}
+.emailCon{
+  font-size: 20px;
+}
