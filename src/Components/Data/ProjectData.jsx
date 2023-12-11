@@ -28,8 +28,8 @@ const ProData = [
         proTitle: "Personal PortFolio",
         ProDesc: "This is a project made to learn the latest languages by building an app",
         language: "React js, Javascript, Html, Css",
-        demo:"#",
-        sorce:"#"
+        demo:"https://shakya-arpit.netlify.app/",
+        sorce:"https://github.com/shakyaarpit/Personal_Portfolio.git"
     },
     {
         proImg: 'https://freepngimg.com/save/25491-next-button/600x296',

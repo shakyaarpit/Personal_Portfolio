@@ -10,7 +10,7 @@ const Home = () => {
           This Is My Official PortFolio Website To Show All <br/> Details And Work
           Experience Web Development
         </p>
-        <NavLink to="/contact"><button className="btn">Here ME</button></NavLink>
+        <NavLink to="https://drive.google.com/file/d/1n-ExoJI8KG9cWPdGZrsBRVET_PZoPmem/view?usp=sharing"><button className="btn">Here ME</button></NavLink>
         
       </div>
       <div className="homeImg">
